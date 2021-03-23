@@ -1,0 +1,47 @@
+.mainContainer {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: calc(100vh - 5rem);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcomeSection {
+  max-width: 600px;
+
+  > span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-bottom: 2.5rem;
+    color: var(--gray-100);
+  }
+
+  h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 4.5rem;
+    color: var(--white);
+    margin-bottom: 1.5rem;
+
+    span {
+      color: var(--cyan-500);
+    }
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: var(--white);
+
+    span {
+      font-weight: 700;
+      color: var(--cyan-500);
+    }
+  }
+}
