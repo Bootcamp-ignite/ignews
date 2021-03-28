@@ -36,7 +36,5 @@ export async function saveSubscription(
         { data: subscriptionData }
       )
     );
-
-    console.log(response);
   }
 }
